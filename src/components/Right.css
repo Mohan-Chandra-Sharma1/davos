@@ -1,0 +1,159 @@
+.Webpage{
+    display: flex;
+    width: 99%;
+    height:9%;
+}
+.HeaderFrame{
+display: flex;
+width:178px;
+height: 757px;
+padding: 10px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+margin-right: 2%;
+}
+.Z1{
+    width: 99px;
+    height: 100px;
+}
+.Frame20{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 10px;
+margin: 2%;
+}
+.Frame18{
+display: flex;
+align-items: baseline;
+}
+.ZIP{
+color: #000;
+
+/* Section Title */
+font-size: 40px;
+font-family: Inter;
+font-weight: 600;
+}
+.Messanger{
+color: var(--label-text, #C7C7C7);
+
+/* Label Text */
+font-size: 18px;
+font-family: Inter;
+}
+.Frame19{
+display: flex;
+width: 120px;
+height: 69;
+align-items: flex-end;
+gap: -30px;
+margin: 2%;
+}
+.V1{
+width:  89%;
+height:  99%;
+}
+.S1{
+    width:  89%;
+    height:  99%;
+}
+.G1{
+    width:  89%;
+    height:  99%;
+/* background:  lightgray 50% / cover no-repeat;  */
+}
+.MessageFrame{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    flex: 1 0 0;
+    align-self: stretch;
+    }
+    .Frame15{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    }
+    .Frame17{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    }
+    .Message{
+    color: #000;
+    
+    /* Section Title */
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 600;
+    }
+    .Below{
+    color: var(--label-text, #C7C7C7);
+    
+    /* Label Text */
+    font-size: 18px;
+    font-family: Inter;
+    }
+    .Rectangle{
+    flex: 1 0 0;
+    align-self: stretch;
+    border: 1px solid #ABABAB;
+    }
+    .ButtonFrame{
+    display: flex;
+    width: 184px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    align-self: stretch;
+    }
+    .Button1{
+        display: flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 8px;
+        border-color: #FFF;
+    background: var(--button-affirm, #32C1FF);
+    }
+    .Send{
+        color: var(--button-text, #FFF);
+        font-size: 25px;
+        font-family: Inter;
+        font-weight: 700;
+    }
+    .Button2{
+    display: flex;
+    height: 53px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    border-color: #FFF;
+    background: #F00;
+    }
+    .Cancel{
+        color: var(--button-text, #FFF);
+        font-size: 25px;
+        font-family: Inter;
+        font-weight: 700;
+    }
+
